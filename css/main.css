@@ -66,9 +66,32 @@ textarea {
     /*font-size: x-large;*/
 }
 
+@font-face {
+    font-family: 'script'; /*a name to be used later*/
+    src: url("../fonts/JennaSue.ttf"); /*URL to font*/
+    /*font-size: x-large;*/
+}
+
+@font-face {
+    font-family: 'simple'; /*a name to be used later*/
+    src: url("../fonts/Pistara.otf"); /*URL to font*/
+    /*font-size: x-large;*/
+}
+
+@font-face {
+    font-family: 'cr'; /*a name to be used later*/
+    src: url("../fonts/bc.TTF"); /*URL to font*/
+    /*font-size: x-large;*/
+}
+
+@font-face {
+    font-family: 'typewriter'; /*a name to be used later*/
+    src: url("../fonts/TravelingTypewriter.otf"); /*URL to font*/
+    /*font-size: x-large;*/
+}
+
 .abs{
     width: 100%;
-    display:inline-block;
 }
 
 p{
@@ -82,12 +105,19 @@ h3{
     text-align: center;
     background-color: #A35B34;
     font-family: 'Joe';
-    height: 40%;
+    display: inline-block;
+    font-size:100px;
+    border: 50px solid black;
+    padding: 15px 30px 15px 30px;
+    margin: 0 0 40px 0;
 }
 
 .top-nav{
     text-align: center;
     background: #FCBD9B;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'script';
 }
 
 .outer{
@@ -96,26 +126,89 @@ h3{
 }
 
 .height1{
-    height: 350px;
+    height: 400px;
     background-color: #A3346E;
     margin: auto;
     padding: 0px;
+    text-align: center;
+    
 }
 
 .height2{
-    height: 400px;
+    height: 350px;
     background-color: #E8E84F;
 }
 
 .height3{
-    height: 300px;
+    height: 400px;
     background-color: #4FE859;
 }
 
 .height4{
-    height: 200px;
+    height: 350px;
+    height: auto;
     background-color: #4FE8CF;
 }
+
+.coffeebean{
+    display: inline;
+}
+
+.coffeebean img{
+    display: inline;
+    
+}
+
+.coffeebean p{
+   display: inline;
+   margin-right: 30px;
+}
+#blist{
+    margin: 0px;
+    text-align: center;
+    font-family: 'simple';
+    font-size: 30px;
+}
+
+.otherlinks{
+    display:inline;
+    padding-top: 0px;
+    margin-right: 130px;
+}
+
+#sub{
+    font-family: 'script';
+    text-align: center;
+    margin-top: 50px;
+}
+
+#sub p{
+    font-size: 55px;
+}
+
+#copyright{
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'cr';
+    font-size: 20px;
+}
+
+.quote{
+    text-align: center;
+    font-family: 'typewriter';
+    font-size: 70px;
+}
+
+.quote #source{
+    font-size:40px;
+    float: right;
+    margin-right: 50px;
+}
+
+
+
+
+
 
 
 
