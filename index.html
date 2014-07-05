@@ -50,10 +50,22 @@
            </nav>
         </header>
         
-        <main class="outer"> <!-- slideshow, quote -->
+         <main class="outer"> <!-- slideshow, quote -->
             <section class="slideshow height2">
-                <p>slideshow here!</p>
+                <ul class="rslides">
+                  <li><img src="photos/splash.jpg" width='622' height='350' alt=""></li>
+                  <li><img src="photos/nyc.jpg" width='622' height='350' alt=""></li>
+                  <li><img src="photos/coffeesweets.jpg" width='622' height='350' alt=""></li>
+                  <li><img src="photos/cin.jpg" width='622' height='350' alt=""></li>
+                  <li><img src="photos/table.jpg" width='622' height='350' alt=""></li>
+                  <li><img src="photos/steamingbeans.jpg" width='622' height='350' alt=""></li>
+                  <li><img src="photos/copper.jpg" width='622' height='350' alt=""></li>
+                  <li><img src="photos/morning.jpg" width='622' height='350' alt=""></li>
+                  <li><img src="photos/hotcoffee.jpg" width='622' height='350' alt=""></li>
+                </ul>
             </section>
+            
+            
             <section class="quote height3">
                 <p>"The best blend in all the five boroughs!"</p>
                 <div id="source">- Urban Sugar magazine</div>
@@ -72,8 +84,10 @@
             
             <section id="sub">
                 <p>subscribe</p>
-                <input class="em" type="text" placeholder="Enter your email" autofocus>
-                <button>go!</button>
+                <span class="inputWithButton">
+                    <input type="text" placeholder=" janedoe@email.com" autofocus>
+                    <button>Go!</button>
+                </span>
             </section>
             
             <section id="copyright">
@@ -85,7 +99,12 @@
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-
+        <script src="js/vendor/responsiveslides.min.js"></script>
         <script src="js/main.js"></script>
+        <script>
+          $(function() {
+            $(".rslides").responsiveSlides();
+          });
+        </script>
     </body>
 </html>

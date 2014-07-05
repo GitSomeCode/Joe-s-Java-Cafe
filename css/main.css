@@ -103,60 +103,74 @@ h3{
 
 #header{
     text-align: center;
-    background-color: #A35B34;
+    background-color: #000000;
     font-family: 'Joe';
     display: inline-block;
     font-size:100px;
     border: 50px solid black;
+    border-image: src("../photoshopFiles/banner2.jpg");
+    border-image-repeat: repeat;
+    /*border-radius: 10px;*/
     padding: 15px 30px 15px 30px;
-    margin: 0 0 40px 0;
+    margin: 5px 0 40px 0;
+    cursor: pointer;
+    color: white;
+    background-image: url("../photoshopFiles/cb.jpg");
+    
 }
+
 
 .top-nav{
     text-align: center;
     background: #FCBD9B;
     font-size: 30px;
     font-weight: bold;
+    color: white;
     font-family: 'script';
+    background-image: url("../photoshopFiles/banner2.jpg");
+    background-repeat: repeat;
 }
 
+/*
 .outer{
     margin: auto;
     padding: 0px;
 }
+*/
 
 .height1{
     height: 400px;
-    background-color: #A3346E;
     margin: auto;
     padding: 0px;
     text-align: center;
-    
+    background: url("../photoshopFiles/rsz_b5.jpg");
+    background-repeat: repeat-x;
 }
 
 .height2{
     height: 350px;
-    background-color: #E8E84F;
+    background-color: #fff;
 }
 
 .height3{
     height: 400px;
-    background-color: #4FE859;
+    background: url("../photoshopFiles/rsz_sample3.jpg");
+    background-repeat: repeat-x;
 }
 
 .height4{
     height: 350px;
     height: auto;
-    background-color: #4FE8CF;
+    background-color: #281003;
 }
 
 .coffeebean{
     display: inline;
+    cursor: pointer;
 }
 
 .coffeebean img{
     display: inline;
-    
 }
 
 .coffeebean p{
@@ -174,6 +188,7 @@ h3{
     display:inline;
     padding-top: 0px;
     margin-right: 130px;
+    cursor: pointer;
 }
 
 #sub{
@@ -219,12 +234,78 @@ color:#F5E5DA;
   box-shadow: none !important;
 }
 
-.em{
-    border:2px solid #456879;
-    border-radius:10px;
-    height: 22px;
-    width: 230px;
+.inputWithButton{
+    display:inline-block;
+    overflow:hidden;
+    border-radius: 20px;
+    border:2px solid #444;
 }
+.inputWithButton > *{
+    vertical-align:top;
+    border:0;
+    margin:0;
+    padding: 12px 10px;
+}
+.inputWithButton input{
+    width:160px;
+    height: auto;
+    border-right:none;
+    background-color: #FAE2C0;
+}
+.inputWithButton button{
+    border-left:1px solid gray;
+    background:#A30000;
+    border:1px solid #A30000;
+    color:#fff;
+    cursor:pointer;
+    width:70px;
+    margin-left:-10px;
+    outline
+    border-radius: 20px;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  /*height: auto;*/
+  height: 350px;
+  /*float: left;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 622px;
+  /*width: 100%;*/
+  border: 0;
+  }
+  
+  .slideshow{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+
+
 
 
 
