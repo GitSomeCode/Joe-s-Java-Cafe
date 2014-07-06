@@ -107,16 +107,19 @@ h3{
     font-family: 'Joe';
     display: inline-block;
     font-size:100px;
+    /*
     border:5px solid #281003;
     border-radius: 10px;
+    */
     padding: 15px 30px 15px 30px;
-    margin: 5px 0 40px 0;
+    margin: 93px 0 40px 0;
     cursor: pointer;
     /*color: #281003;*/
     color: white;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-    background-image: url("../photoshopFiles/wood_191.jpg");
+    /*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+    background-image: url("../photoshopFiles/wood_155.jpg");
     background-repeat: repeat;
+    opacity: 0.9;
 }
 
 
@@ -126,10 +129,26 @@ h3{
     font-size: 40px;
     /*font-weight: bold;*/
     color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
     font-family: 'script';
-    background-image: url("../photoshopFiles/wood_191.jpg");
+    background-image: url("../photoshopFiles/wood_155.jpg");
     background-repeat: repeat;
+    opacity:0.9;
+    margin-top: 35px;
+}
+
+.bot-nav{
+     text-align: center;
+    background: #FCBD9B;
+    font-size: 40px;
+    /*font-weight: bold;*/
+    color: white;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+    font-family: 'script';
+    background-image: url("../photoshopFiles/wood_155.jpg");
+    background-repeat: repeat;
+    opacity:0.9;
+    margin-top: 40px;
 }
 
 /*
@@ -149,16 +168,14 @@ h3{
 }
 
 .height2{
-    height: 350px;
+    height: 435px;
     background-color: #fff;
-    /*
-    background-image: url("../photoshopFiles/rsz_middle3.jpg");
+    background-image: url("../photoshopFiles/rsz_stains.jpg");
     background-repeat: repeat-x;
-    */
 }
 
 .height3{
-    height: 400px;
+    height: 399px;
     background: url("../photoshopFiles/rsz_sample3.jpg");
     background-repeat: repeat-x;
 }
@@ -211,8 +228,9 @@ h3{
 #copyright{
     text-align: center;
     padding-top: 100px;
-    font-family: 'cr';
-    font-size: 20px;
+    font-family: 'script';
+    font-size: 30px;
+    color: white;
 }
 
 .quote{
@@ -258,17 +276,20 @@ color:#F5E5DA;
     height: auto;
     border-right:none;
     background-color: #FAE2C0;
+    font-family: 'simple';
 }
 .inputWithButton button{
-    border-left:1px solid gray;
-    background:#A30000;
-    border:1px solid #A30000;
+    /*border-left:1px solid gray;*/
+    background:#f0c569;
+    /*border:1px solid #A30000;*/
     color:#fff;
     cursor:pointer;
     width:70px;
     margin-left:-10px;
     outline
     border-radius: 20px;
+    font-family: 'simple';
+    font-family: 50px;
 }
 
 .rslides {
@@ -303,13 +324,22 @@ color:#F5E5DA;
   margin-right: auto;
   width: 622px;
   /*width: 100%;*/
-  border: 0;
+  /*border: 0;*/
+  
+   border-style: solid;
+border-width: 27px;
+-moz-border-image: url("../photoshopFiles/wood_155.jpg") 27 repeat;
+-webkit-border-image: url("../photoshopFiles/wood_155.jpg") 27 repeat;
+-o-border-image: url("../photoshopFiles/wood_155.jpg") 27 repeat;
+border-image: url("../photoshopFiles/wood_155.jpg") 27 fill repeat;
   }
   
   .slideshow{
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
+   
   }
+
 
 
 
